@@ -6,7 +6,7 @@
  local MainSection = Main:NewSection("MainSection")
 
 
- MainSection:NewButton("ChatBypasserV1", "If you wanna bypass chat and risk a ban", function()
+ MainSection:NewButton("ChatBypasserV1", "DOESNT WORK", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
 end)
 
@@ -20,7 +20,7 @@ MainSection:NewToggle("SuperHuman", "Fly And Go Fast IG", function(state)
     end
 end)
 
-MainSection:NewButton("INF Yield", "Just A Admin Thats FE", function()
+MainSection:NewButton("INF Yield", "Just A Admin Thats the best", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
@@ -47,11 +47,11 @@ end)
     local Other = Window:NewTab("Other")
     local OtherSection = Other:NewSection("Other")
 
-    OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+    OtherSection:NewButton("Chat Spoofer", "DOESNT WORK", function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
     end)
 
-    OtherSection:NewButton("Bypassed Fly", "bird mode", function()
+    OtherSection:NewButton("Bypassed Fly", "DOESNT WORK", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
 
         Fly(true)
